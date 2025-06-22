@@ -43,4 +43,27 @@ const myFunction = function(){
      
 */
 
-console.log(typeof myFunction)
+// console.log(typeof myFunction)
+
+// stack memory and heap memory
+// stack memory in primitive datatype used
+// heap for non primitive
+
+let myYoutubename = "rajatsinha"
+
+let anothername = myYoutubename
+
+console.log(anothername)
+
+let userOne = {
+    email: "userat@google.com",
+    upi: "upi@ybl"
+}
+
+let userTwo= userOne
+
+userTwo.email = "Rajat@gmail.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
+
